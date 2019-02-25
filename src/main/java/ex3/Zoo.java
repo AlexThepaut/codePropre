@@ -6,10 +6,10 @@ package ex3;
 public class Zoo {
 
 	private String nom;
-	private SavaneAfricaine savaneAfricaine;
+	private ZoneSavaneAfricaine savaneAfricaine;
 	private ZoneCarnivore zoneCarnivore;
-	private FermeReptile fermeReptile;
-	private Aquarium aquarium;
+	private ZoneFermeReptile fermeReptile;
+	private ZoneAquarium aquarium;
 	
 	public Zoo(String nom){
 		this.nom = nom;

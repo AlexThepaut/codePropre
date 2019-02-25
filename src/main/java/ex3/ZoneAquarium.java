@@ -1,8 +1,8 @@
 package ex3;
 
-public class ZoneCarnivore extends Zone{
+public class ZoneAquarium extends Zone{
 
-	private double poids = 10;
+	private double poids = 0.2;
 
 	@Override
 	public double getPoids() {
